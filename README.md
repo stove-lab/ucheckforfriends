@@ -36,7 +36,7 @@ To use this program, you will need to have:
 - Any Python compiler e.g. Pycharm, Wing IDE. 
   
 ## Setup
-- Download all the files in this repository. 
+- Download all the files in the ucheckforfriends directory.
 - Add environment variables with the names `UTORID_USER` and `UTORID_PASS`. Set their values to your personal utorid and password respectively. 
   - On Windows: https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/ 
   - On Mac: Open Terminal -> type `touch ~/.bash_profile` -> type `open ~/.bash_profile`
