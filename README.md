@@ -37,7 +37,7 @@ To use this program, you will need to have:
   
 ## Setup
 - Download all the files in this repository. 
-- Add environment variables with the names UTORID_USER and UTORID_PASS. Set their values to your personal utorid and password respectively. 
+- Add environment variables with the names `UTORID_USER` and `UTORID_PASS`. Set their values to your personal utorid and password respectively. 
   - On Windows: https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/ 
   - On Mac: Open Terminal -> type `touch ~/.bash_profile` -> type `open ~/.bash_profile`
   - At the bottom of your bash file, add: 
