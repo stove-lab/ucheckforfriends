@@ -21,11 +21,11 @@ To use this program, you will need to have:
 - Selenium
   - If you have python installed, you can run: 
   - On Mac terminal:
-  ```python
+  ```bash
   pip install selenium
   ```
   - On Windows command prompt:
-  ```python 
+  ```bash 
   python -m pip install selenium
   ```
   
@@ -41,7 +41,7 @@ To use this program, you will need to have:
   - On Windows: https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/ 
   - On Mac: Open Terminal -> type `touch ~/.bash_profile` -> type `open ~/.bash_profile`
   - At the bottom of your bash file, add: 
-  ```
+  ```bash
   # Environment Variables for UTORID information
   UTORID_USER = "enter your utorid here"
   UTORID_PASS = "enter your password here"
@@ -52,8 +52,11 @@ To use this program, you will need to have:
   
 - In your main.py, change the value inside the quotes for `driver_path` to the path to your chromedriver.exe:
 
-`with UCheck(Chrome, Service, driver_path="/opt/WebDriver/bin/chromedriver") as ucheck`
+```python
+with UCheck(Chrome, Service, driver_path="/opt/WebDriver/bin/chromedriver") as ucheck:
+```
 
 - In your config.yaml file, change the value of `ucheck-url` to the url of your questionnaire. 
 
-- Run the `main.py` in your compiler.
+## How to Use
+- Run the `main.py` file in your compiler of choice.
